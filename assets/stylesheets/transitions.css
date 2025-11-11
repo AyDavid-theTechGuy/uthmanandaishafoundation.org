@@ -1,0 +1,74 @@
+/* Transition -- Lazy Loading Effects */
+
+.x-transit-rt-lt-24 {
+    opacity: 0;
+    transform: translateX(24px); 
+    transition: transform 0.44s ease-out, opacity 0.32s ease-out;
+}
+
+.x-transit-rt-lt-44 {
+    opacity: 0;
+    transform: translateX(44px); 
+    transition: transform 0.44s ease-out, opacity 0.32s ease-out;
+}
+
+.x-transit-rt-lt-64 {
+    opacity: 0;
+    transform: translateX(64px); 
+    transition: transform 0.64s ease-out, opacity 0.32s ease-out;
+}
+
+.x-transit-rt-lt-24.visible,
+.x-transit-rt-lt-44.visible,
+.x-transit-rt-lt-64.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Y-axis Transitions */
+.y-transit-up-down-24 {
+    opacity: 0;
+    transform: translateY(-24px); 
+    transition: transform 0.44s ease-out, opacity 0.32s ease-out;
+}
+
+.y-transit-up-down-44 {
+    opacity: 0;
+    transform: translateY(-44px); 
+    transition: transform 0.44s ease-out, opacity 0.32s ease-out;
+}
+
+.y-transit-up-down-64 {
+    opacity: 0;
+    transform: translateY(-64px); 
+    transition: transform 0.72s ease-in, opacity 0.64s ease-in;
+}
+
+.y-transit-down-up-24 {
+    opacity: 0;
+    transform: translateY(24px); 
+    transition: transform 0.44s ease-out, opacity 0.32s ease-out;
+}
+
+.y-transit-down-up-44 {
+    opacity: 0;
+    transform: translateY(44px); 
+    transition: transform 0.44s ease-out, opacity 0.32s ease-out;
+}
+
+.y-transit-down-up-64 {
+    opacity: 0;
+    transform: translateY(64px); 
+    transition: transform 0.72s ease-out, opacity 0.64s ease-out;
+}
+
+.y-transit-up-down-24.visible,
+.y-transit-up-down-44.visible,
+.y-transit-up-down-64.visible,
+.y-transit-up-down-hero.visible,
+.y-transit-down-up-24.visible,
+.y-transit-down-up-44.visible,
+.y-transit-down-up-64.visible {
+    opacity: 1;
+    transform: translateY(0);
+}

@@ -1,0 +1,23 @@
+.card-1 {
+	background-color: var(--colWhite);
+	border-radius: 8px;
+	padding: 24px 16px 12px 16px;
+    transition-duration: 0.24s;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.04);
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.04);
+    -moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.04);
+}
+.card-1 i {
+    color: var(--col4);
+}
+.card-1 h4 {
+    color: var(--col3);
+}
+
+.update-card {
+    margin-bottom: 32px;
+}
+.update-card h5 {
+    color: var(--col4);
+}
+
