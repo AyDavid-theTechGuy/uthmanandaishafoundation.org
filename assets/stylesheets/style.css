@@ -94,12 +94,9 @@ a {
 		margin-top: 10px;
 	}
 
-	.nav-link {
-		padding-left: 10px;
-	}
-    
-    .nav-item {
-		padding-bottom: 7px;
+	.nav-item {
+		border-bottom: solid 1px var(--col5);
+		padding: 12px 0 12px 6px;
 	}
 }
 
@@ -150,7 +147,7 @@ a {
 }
 @media screen and (max-width: 500px) {
 	.hero .carousel-caption h1 {
-		font-size: 32px;
+		font-size: 40px;
 	}
 }
 .hero .carousel-caption h1,
